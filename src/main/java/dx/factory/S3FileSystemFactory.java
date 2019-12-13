@@ -1,4 +1,4 @@
-package factory;
+package dx.factory;
 
 public class S3FileSystemFactory implements FileSystemFactory {
     @Override

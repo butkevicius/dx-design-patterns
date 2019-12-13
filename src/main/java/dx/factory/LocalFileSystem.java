@@ -1,4 +1,4 @@
-package factory;
+package dx.factory;
 
 public class LocalFileSystem implements FileSystem {
 

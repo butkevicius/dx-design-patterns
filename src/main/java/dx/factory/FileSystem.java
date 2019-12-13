@@ -1,4 +1,4 @@
-package factory;
+package dx.factory;
 
 public interface FileSystem {
     String retrieveFile(String path);

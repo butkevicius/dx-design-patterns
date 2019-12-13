@@ -1,4 +1,4 @@
-package abstract_factory;
+package dx.abstract_factory;
 
 public class S3Factory extends AbstractFileSystemFactory {
     @Override

@@ -1,4 +1,4 @@
-package abstract_factory;
+package dx.abstract_factory;
 
 public abstract class AbstractFileSystemFactory {
     private static final S3Factory S_3_FACTORY = new S3Factory();
@@ -18,7 +18,7 @@ public abstract class AbstractFileSystemFactory {
     }
 
     public abstract Storage createStorage();
-    
+
     public abstract PathResolver createPathResolver();
 
     enum FSType {
